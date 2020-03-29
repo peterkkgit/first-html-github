@@ -1,90 +1,147 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Welcome</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    
-    <body>
-       <h1 style="padding: 0px 30px;">Github Step-by-Step</h1>
-       <div class="section_box">
-       <h2>Creating Repository</h2>
+
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 style="padding: 0px 30px;">Github Step-by-Step</h1>
+    <div class="section_box">
+        <h2>Creating Repository</h2>
         <ol>
             <li>Create folder and files on computer - it's ok</li>
             <li>Create New Repository on Github
-                <ol><li>Click "Repositories" > "New", then give a name and check no boxes for files</li>
-                <li>Left Public</li>
-                <li>Click "Create Repository"</li>
-                </ol></li>
+                <ol>
+                    <li>Click "Repositories" > "New", then give a name and check no boxes for files</li>
+                    <li>Left Public</li>
+                    <li>Click "Create Repository"</li>
+                </ol>
+            </li>
             <li>At this poing, github is very helpful to give you the next steps on screen. Follow these:</li>
             <li>Now to Terminal:
-            <ol><li>To change directory cd /d D:\DRIVE\_SHARED PETER\CODING\HTML-CSS</li>
-            <li>git init name_of_folder (can type first letter then hit tab to make it easier)</li>
-            <li>cd name_of_folder</li>
-            <li>git status - just to check we're in the right folder and files are there - files should show up in red</li>
-            <li>git add README.md - SKIP THIS</li>
-            <li>git add . - DO THIS INSTEAD</li>
-            <li>git status one more time - files should be green now confirming they've been added (to?)</li>
-            <li>git commit -m "first commit" - WHAT'S THE PURPOSE OF THE MESSAGE?</li>
-            <li>git remote add origin https://github.com/peterkkgit/first-html-github.git - GITHUB GIVES YOU THIS</li>
-            <li>git push -u origin master</li>
-                </ol></li>
-                
+                <ol>
+                    <li>To change directory cd /d D:\DRIVE\_SHARED PETER\CODING\HTML-CSS</li>
+                    <li>git init name_of_folder (can type first letter then hit tab to make it easier)</li>
+                    <li>cd name_of_folder</li>
+                    <li>git status - just to check we're in the right folder and files are there - files should show up in red</li>
+                    <li>git add README.md - SKIP THIS</li>
+                    <li>git add . - DO THIS INSTEAD</li>
+                    <li>git status one more time - files should be green now confirming they've been added (to?)</li>
+                    <li>git commit -m "first commit" - WHAT'S THE PURPOSE OF THE MESSAGE?</li>
+                    <li>git remote add origin https://github.com/peterkkgit/first-html-github.git - GITHUB GIVES YOU THIS</li>
+                    <li>git push -u origin master</li>
+                </ol>
+            </li>
+
             <li>Voila!</li>
-            </ol>
-            </div>
-            
-            
-       <div class="section_box">
-            <h2>Updating Changes</h2>
-            <p>In both cases, need to be in the root directory ie. name_of_folder></p>
-            <p>Check this with a git status - should see files in red that need to be updated</p>
-            <h3>Pushing</h3>
-            <p>Much simpler</p>
-            <ol>
-                <li>git add . </li>
-                <li>git commit -m "some_message_here" - STILL NOT SURE WHAT THIS IS FOR? IS IT A COMMENT?</li>
-                <li>git push</li>
-            </ol>
-            
-            
-            <h3>Pulling</h3>
-            <p>First, be in the root directory</p>
-            <ol>
-                <li>git pull</li>
-            </ol>
-        </div>
-    
-        
-       <div class="section_box">
-            <h2>References</h2>
-                           <table>
-                             <td rowspan="9">
+        </ol>
+    </div>
+
+
+    <div class="section_box">
+        <h2>Updating Changes</h2>
+        <p>In both cases, need to be in the root directory ie. name_of_folder></p>
+        <p>Check this with a git status - should see files in red that need to be updated</p>
+        <h3>Pushing</h3>
+        <p>Much simpler</p>
+        <ol>
+            <li>git add . </li>
+            <li>git commit -m "some_message_here" - STILL NOT SURE WHAT THIS IS FOR? IS IT A COMMENT?</li>
+            <li>git push</li>
+        </ol>
+
+
+        <h3>Pulling</h3>
+        <p>First, be in the root directory</p>
+        <ol>
+            <li>git pull</li>
+        </ol>
+    </div>
+
+
+    <div class="section_box">
+        <h2>References</h2>
+        <table>
+            <td rowspan="9">
                 <a href="https://jonhmchan.com/essays/2014/4/28/finally-a-guide-to-hosting-your-website">
-                   <img  src="img/jon_chan_helpful_github_guide.jpg" alt="helpful github guide" class="centered_image">
-                    </a>
-                    </td>
-                           
-                <tr>       <td><a href="https://jonhmchan.com/essays/2014/4/28/finally-a-guide-to-hosting-your-website">https://jonhmchan.com/essays/2014/4/28/finally-a-guide-to-hosting-your-website</a></td>
-                    <tr><td>https://guides.github.com/introduction/git-handbook/</td></tr>
-               <tr><td>https://help.github.com/en/github/getting-started-with-github/create-a-repo</td></tr>
-               <tr><td>https://guides.github.com/activities/hello-world/#repository</td></tr>
-               <tr><td>https://bento.io/topic/shell#</td></tr>
-               <tr><td>https://bento.io/topic/git</td></tr>
-               <tr><td>https://try.github.io/</td></tr><tr><td>https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html</td></tr>              
-                
-           </table>
+                    <img src="img/jon_chan_helpful_github_guide.jpg" alt="helpful github guide" class="centered_image">
+                </a>
+            </td>
 
-            
-        </div>
-          <div class="section_box">
-           
-            
-            <h1>PS. Awesome Shortcuts</h1>
-                   <ul>
-                    <li>CTRL-SHIFT & up-down in brackets moves the line - saves a copy paste</li>
-                    </ul>
-          </div>
+            <tr>
+                <td><a href="https://jonhmchan.com/essays/2014/4/28/finally-a-guide-to-hosting-your-website">https://jonhmchan.com/essays/2014/4/28/finally-a-guide-to-hosting-your-website</a></td>
+                <tr>
+                    <td>https://guides.github.com/introduction/git-handbook/</td>
+                </tr>
+                <tr>
+                    <td>https://help.github.com/en/github/getting-started-with-github/create-a-repo</td>
+                </tr>
+                <tr>
+                    <td>https://guides.github.com/activities/hello-world/#repository</td>
+                </tr>
+                <tr>
+                    <td>https://bento.io/topic/shell#</td>
+                </tr>
+                <tr>
+                    <td>https://bento.io/topic/git</td>
+                </tr>
+                <tr>
+                    <td>https://try.github.io/</td>
+                </tr>
+                <tr>
+                    <td>https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html</td>
+                </tr>
 
-    </body>
+        </table>
+
+
+    </div>
+
+
+    <div class="section_box">
+        <h2>Notes to sort</h2>
+        <h3>adding to gh-pages branch</h3>
+        <p># update all remote tracking branches, and the currently checked out branch
+        </p>
+        <p>git pull </p>
+        <p>
+
+            # change into the existing branch called `feature-a`
+        </p>
+        <p>
+            git checkout feature-a
+        </p>
+        <p>
+            # make changes, for example, edit `file1.md` using the text editor
+        </p>
+        <p>
+            # stage the changed file
+        </p>
+        <p>
+            git add file1.md
+        </p>
+        <p>
+            # take a snapshot of the staging area
+        </p>
+        <p>
+            git commit -m "edit file1"
+        </p>
+        <p>
+            # push changes to github
+        </p>
+        <p>
+            git push</p>
+
+        <h3>PS. Awesome Shortcuts</h3>
+        <ul>
+            <li>CTRL-SHIFT &amp; up-down in brackets moves the line - saves a copy paste</li>
+        </ul>
+
+    </div>
+
+
+</body>
+
 </html>

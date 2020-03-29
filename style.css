@@ -4,7 +4,8 @@ html {
 
 body {
     font-family: "open san", "arial", sans-serif;
-    background-image: url(img/wallpaper_pexels-photo-479444.jpeg)
+    background-image: url(img/white-clean-interior-home.jpg);
+    background-size: cover;
 }
 
 h1, h2, h3 {
