@@ -1,3 +1,7 @@
+html {
+    border: solid white 40px;
+}
+
 body {
     font-family: "open san", "arial", sans-serif;
     background-image: url(img/wallpaper_pexels-photo-479444.jpeg)
